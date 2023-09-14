@@ -75,14 +75,18 @@ h2{
     width: 13.6875rem;
     height: 4.3125rem;
     border-radius: 2.4375rem;
-    background: #121212;
-    color: #FFF0F5;
     font-size: 36px;
     font-weight: 500;
+    background: #94C9A9;
+    color: #070E0A;
+    border: 1px solid #94C9A9;
 }
 
+
 .btn:hover{
-    background: #757575;
+    background: #376D4E;
+    color: #FFF0F5;
+    border: 1px solid #376D4E;
 }
 
 #higherScore{
