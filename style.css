@@ -14,3 +14,53 @@ body{
     max-height: 797px;
 }
 
+.color1{
+    background-color: #BD87DE;
+    border-radius: 3.75rem 0 0 0;
+}
+
+.color2{
+    background-color: #FFCC80;
+    border-radius: 0 3.75rem 0 0;
+}
+
+.color4{
+    background-color: #F693C4;
+    border-radius: 0 0 3.75rem 0;
+}
+
+.color3{
+    background-color: #78C1F3;
+    border-radius: 0 0 0 3.75rem;
+}
+
+#simon{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    height: 70vh;
+    width: 50vw;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#simon div{
+  margin: 10px;
+  padding: 5px;
+}
+
+.center {
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  background-color: #FFFf;
+  font-size: 10rem;
+  font-weight: 800;
+  border-radius: 50%;
+  line-height: 38vh;
+}
+
