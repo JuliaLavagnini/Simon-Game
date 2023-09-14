@@ -1,12 +1,18 @@
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Work Sans', sans-serif;
 }
 
 body{
     background-image: url(assets/media/Background.png);
     display: grid;
     height: 100vh;
+    color: #757575;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .container{
@@ -58,10 +64,11 @@ body{
   width: 15rem;
   position: absolute;
   background-color: #FFFf;
+  color: #121212;
   font-size: 10rem;
   font-weight: 800;
   border-radius: 50%;
-  line-height: 38vh;
+  line-height: 34vh;
 }
 
 .btn{
@@ -76,4 +83,10 @@ body{
 
 .btn:hover{
     background: #757575;
+}
+
+#higherScore{
+    font-weight: 600;
+    font-size: 2.1rem;
+    color: #121212;
 }
