@@ -41,6 +41,34 @@ const startGame = () => {
     pathway();
 };
 
+//Function to decide and play the sequence
+const pathway = () => {
+    randomColors.push(getRandomValue(colors));
+    count = randomColors.length;
+    pathGenerator = true;
+    pathwayPlay(count);
+};
+
+const pathwayPlay = async (count) => {
+    countCenter.innerText = count;
+    for (let item of randomColors){
+        let currentColor = document.querySelector(`.${item}`);
+        await delay(500);
+        currentColor.style.backgroundColor = `${colors[item]["new"]}`;
+        await delay(600);
+        currentColor.style.backgroundColor = `${colors[item]["current"]}`;
+        await delay(600);
+    }
+    pathGenerator = false;
+};
+
+//Delay for blink effect to use on pathwayPlay()
+async function delay(time) {
+  return await new Promise((resolve) => {
+    setTimeout(resolve, time);
+  });
+}
+
 //Call functions on DOM
 startBtn.addEventListener("click", event => {
     startGame();
