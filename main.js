@@ -69,6 +69,12 @@ async function delay(time) {
   });
 }
 
+//Function to get a random value from object
+const getRandomValue = (obj) => {
+    let arr = Object.keys(obj);
+    return arr[Math.floor(Math.random() * arr.length)];
+};
+
 //Call functions on DOM
 startBtn.addEventListener("click", event => {
     startGame();
