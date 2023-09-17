@@ -15,11 +15,11 @@ const colors = {
     current: "#FFCC80",
     new: "#FD8D14",
   },
-  color3: {
+  color4: {
     current: "#F693C4",
     new: "#F11A7B",
   },
-  color4: {
+  color3: {
     current: "#78C1F3",
     new: "#00A8FF",
   },
