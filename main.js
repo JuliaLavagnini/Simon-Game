@@ -52,9 +52,9 @@ const pathwayPlay = async (count) => {
     let currentColor = document.querySelector(`.${item}`);
     await delay(500);
     currentColor.style.backgroundColor = `${colors[item]["new"]}`;
-    await delay(600);
+    await delay(400);
     currentColor.style.backgroundColor = `${colors[item]["current"]}`;
-    await delay(600);
+    await delay(500);
   }
   pathGenerator = false;
 };
