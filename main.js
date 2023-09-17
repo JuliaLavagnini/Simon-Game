@@ -2,8 +2,7 @@ const startBtn = document.querySelector("#startBtn");
 const countCenter = document.querySelector("#count");
 const colorPart = document.querySelectorAll(".color-part");
 const Score = document.querySelector("#Score");
-const wrapper = document.querySelector(".wrapper");
-const container = document.querySelector(".container");
+
 
 // Mapping colors objects
 const colors = {
@@ -36,8 +35,6 @@ const startGame = () => {
   clickCount = 0;
   randomColors = [];
   pathGenerator = false;
-  wrapper.classList.remove("main");
-  container.classList.add("main");
   pathway();
 };
 
