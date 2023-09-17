@@ -1,7 +1,7 @@
 const startBtn = document.querySelector("#startBtn");
 const countCenter = document.querySelector("#count");
 const colorPart = document.querySelectorAll(".color-part");
-const higherScore = document.querySelector("#higherScore");
+const Score = document.querySelector("#Score");
 const wrapper = document.querySelector(".wrapper");
 const container = document.querySelector(".container");
 
@@ -109,3 +109,10 @@ colorPart.forEach((element) => {
     }
   });
 });
+
+//Function to when the user gets the sequence wrong
+const lose = () => {
+    countCenter.innerHTML = " X ";
+    countCenter.style.color = "#FF0000";
+    Score.innerHTML = `You stopped at level: ${count}`;
+};
