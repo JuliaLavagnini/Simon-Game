@@ -35,6 +35,7 @@ const startGame = () => {
   clickCount = 0;
   randomColors = [];
   pathGenerator = false;
+  startBtn.style.display = 'none';
   pathway();
 };
 
@@ -112,4 +113,5 @@ const lose = () => {
     countCenter.innerHTML = " X ";
     countCenter.style.color = "#FF0000";
     Score.innerHTML = `You stopped at level: ${count}`;
+    startBtn.style.display = "inline";
 };
