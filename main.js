@@ -37,6 +37,8 @@ const startGame = () => {
   pathGenerator = false;
   startBtn.style.display = 'none';
   pathway();
+
+    countCenter.style.color = "#121212";
 };
 
 //Function to decide and play the sequence
