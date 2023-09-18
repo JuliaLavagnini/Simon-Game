@@ -1,15 +1,15 @@
 # Simon-Game
  
-TRIP. Travel Agency Website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find and book a trip.
+New Vibe Game is a game inpired on 'Simon Game' to allow the user to play with their memory.
 
-![TRIP. Travel Agency Website shown on a range of devices](assets/documentation-media/Picture1.png)
+![New Vibe Game shown on a range of devices](assets/documentation-media/Picture1.png)
 
-[View TRIP. Travel Agency Website on Netlify](https://grand-bienenstitch-48e85b.netlify.app/)
+[View New Vibe Game on Netlify](https://newvibe-game.netlify.app/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/JuliaLavagnini/TRIP.-travel-agency-website?color=red)
-![GitHub contributors](https://img.shields.io/github/contributors/JuliaLavagnini/TRIP.-travel-agency-website?color=orange)
-![GitHub language count](https://img.shields.io/github/languages/count/JuliaLavagnini/TRIP.-travel-agency-website?color=yellow)
-![GitHub top language](https://img.shields.io/github/languages/top/JuliaLavagnini/TRIP.-travel-agency-website?color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/JuliaLavagnini/Simon-Game?color=red)
+![GitHub contributors](https://img.shields.io/github/contributors/JuliaLavagnini/Simon-Game?color=orange)
+![GitHub language count](https://img.shields.io/github/languages/count/JuliaLavagnini/Simon-Game?color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/JuliaLavagnini/Simon-Game?color=green)
 
 ## CONTENTS
 
