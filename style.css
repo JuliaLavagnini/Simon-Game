@@ -10,6 +10,59 @@ body{
     color: #757575;
 }
 
+.popup{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
+    color: #121212;
+    width: 580px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    z-index: 1;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 0 auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popupHelp{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 1) 23%, rgba(223, 159, 247, 1) 93%);
+    box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
+    color: #121212;
+    width: 580px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+i{
+    color: #070707;
+}
+
+i:hover{
+    color: #b3b3b3;
+}
+
+.helpBtn{
+ width: fit-content;
+ margin: 10px;
+}
+
 h2{
     font-size: 2rem;
     font-weight: bold;
@@ -49,9 +102,9 @@ h2{
 }
 
 .main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #simon div{
@@ -60,8 +113,8 @@ h2{
 }
 
 .center {
-  height: 15rem;
-  width: 15rem;
+  height: 30vh;
+  width: 30vh;
   position: absolute;
   background-color: #FFFf;
   color: #121212;
@@ -71,11 +124,11 @@ h2{
   line-height: 34vh;
 }
 
-.btn{
-    width: 13.6875rem;
-    height: 4.3125rem;
-    border-radius: 2.4375rem;
-    font-size: 36px;
+.startBtn{
+    width: 144px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 30px;
     font-weight: 500;
     background: #94C9A9;
     color: #070E0A;
@@ -94,3 +147,4 @@ h2{
     font-size: 2.1rem;
     color: #121212;
 }
+

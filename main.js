@@ -3,6 +3,33 @@ const countCenter = document.querySelector("#count");
 const colorPart = document.querySelectorAll(".color-part");
 const Score = document.querySelector("#Score");
 
+//Intro Popup
+window.addEventListener("load", function () {
+  setTimeout(function open(event) {
+    document.querySelector(".popup").style.display =
+      "inline";
+  }, 1000);
+});
+
+document
+  .querySelector("#close")
+  .addEventListener("click", function () {
+    document.querySelector(".popup").style.display = "none";
+  });
+
+//Help Button
+ var objHidden = false;
+ const help = document.querySelector(".helpBtn");
+help.addEventListener("click", function(){
+    if (objHidden) {
+        objHidden = false;
+        document.querySelector(".popupHelp").style.visibility = "visible";
+    } else {
+        objHidden = true;
+        document.querySelector(".popupHelp").style.visibility = "hidden";
+    }
+      });
+
 
 // Mapping colors objects
 const colors = {
@@ -35,10 +62,10 @@ const startGame = () => {
   clickCount = 0;
   randomColors = [];
   pathGenerator = false;
-  startBtn.style.display = 'none';
+  startBtn.style.display = "none";
   pathway();
 
-    countCenter.style.color = "#121212";
+  countCenter.style.color = "#121212";
 };
 
 //Function to decide and play the sequence
@@ -55,6 +82,7 @@ const pathwayPlay = async (count) => {
     let currentColor = document.querySelector(`.${item}`);
     await delay(500);
     currentColor.style.backgroundColor = `${colors[item]["new"]}`;
+    
     await delay(400);
     currentColor.style.backgroundColor = `${colors[item]["current"]}`;
     await delay(500);
@@ -112,8 +140,9 @@ colorPart.forEach((element) => {
 
 //Function to when the user gets the sequence wrong
 const lose = () => {
-    countCenter.innerHTML = " X ";
-    countCenter.style.color = "#FF0000";
-    Score.innerHTML = `You stopped at level: ${count}`;
-    startBtn.style.display = "inline";
+  countCenter.innerHTML = " X ";
+  countCenter.style.color = "#FF0000";
+  Score.innerHTML = `You stopped at level: ${count}`;
+  startBtn.style.display = "inline";
 };
+

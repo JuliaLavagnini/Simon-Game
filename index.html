@@ -6,6 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <!--Font answsome-->
+    <script src="https://kit.fontawesome.com/1d40a1c82f.js" crossorigin="anonymous"></script>
     <!--Goggle fonts-->
     <link
       rel="preconnect"
@@ -33,27 +35,49 @@
     <title>New Vibe Game</title>
   </head>
   <body>
+
+    <button class="btn helpBtn" ><i class="fa-solid fa-circle-info fa-2xl"></i></button>
+    <div class="popupHelp" id="popupHelp" style="visibility: hidden;">
+      <h2>Let’s remember (or learn, who knows??) how to play!!</h2>
+      <ul>
+        <li>Press 'Start' to play begin the sequence</li>
+        <li>The color will blink, after blink is your turn to click on it</li>
+        <li>if you get right, the game keeps playing.</li>
+        <li>Another level will start and the previous sequence will be played toghter with a new one.</li>
+        <li>If you get any color wrong, it "Game Over!!". Press 'Start' to play again.</li>
+        </ul>
+    </div>
+
+    <div class="popup">
+      <button id="close">&times;</button>
+      <h1>New Vibe Game</h1>
+      <h6>A comeback of Simon Game</h6>
+      <p>
+        Let’s get back on time and play with a modern and
+        bright style.
+      </p>
+      <p style="font-weight: bold;">Click on help icon to know the rules!</p>
+    </div>
+
     <div
       class="container d-flex justify-content-center mt-5"
     >
       <div class="row text-center">
-        <div class="col">
-          <h2 id="Score"></h2>
-        </div>
         <div class="col wrapper main">
-          <div id="simon">
-            <div class="color1 color-part"></div>
-            <div class="color2 color-part"></div>
-            <div class="color3 color-part"></div>
-            <div class="color4 color-part"></div>
-          </div>
-          <div class="center" id="count">0</div>
+            <h2 id="Score"></h2>
+            <div id="simon">
+                <div class="color1 color-part"></div>
+                <div class="color2 color-part"></div>
+                <div class="color3 color-part"></div>
+                <div class="color4 color-part"></div>
+            </div>
+            <div class="center" id="count">0</div>
         </div>
         <div class="col mt-3">
           <div class="button">
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary startBtn"
               id="startBtn"
             >
               Start
