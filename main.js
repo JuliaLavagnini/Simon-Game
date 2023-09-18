@@ -18,18 +18,19 @@ document
   });
 
 //Help Button
- var objHidden = false;
- const help = document.querySelector(".helpBtn");
-help.addEventListener("click", function(){
-    if (objHidden) {
-        objHidden = false;
-        document.querySelector(".popupHelp").style.visibility = "visible";
-    } else {
-        objHidden = true;
-        document.querySelector(".popupHelp").style.visibility = "hidden";
-    }
-      });
-
+let objHidden = false;
+const help = document.querySelector(".helpBtn");
+help.addEventListener("click", function () {
+  if (objHidden) {
+    objHidden = false;
+    document.querySelector(".popupHelp").style.visibility =
+      "visible";
+  } else {
+    objHidden = true;
+    document.querySelector(".popupHelp").style.visibility =
+      "hidden";
+  }
+});
 
 // Mapping colors objects
 const colors = {
@@ -82,7 +83,7 @@ const pathwayPlay = async (count) => {
     let currentColor = document.querySelector(`.${item}`);
     await delay(500);
     currentColor.style.backgroundColor = `${colors[item]["new"]}`;
-    
+
     await delay(400);
     currentColor.style.backgroundColor = `${colors[item]["current"]}`;
     await delay(500);
