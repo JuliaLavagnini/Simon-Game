@@ -40,7 +40,7 @@ body{
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 1) 23%, rgba(223, 159, 247, 1) 93%);
     box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
     color: #121212;
-    width: 580px;
+    width: 952px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -48,6 +48,11 @@ body{
     top: 50%;
     border-radius: 8px;
     z-index: 1;
+    line-height: 25px;
+}
+
+.popupHelp ul li{
+    font-size: 18px;
 }
 
 i{
