@@ -1,6 +1,12 @@
 # Simon-Game
  
-New Vibe Game is a game inpired on 'Simon Game' to allow the user to play with their memory.
+Welcome to the world of "VibeSync," where classic meets contemporary in the realm of web-based gaming. Join us on a journey that reimagines the beloved Simon game with a fresh and vibrant twist.
+
+In "VibeSync," we've taken the timeless challenge of Simon and infused it with cutting-edge web technology and interactive features. This isn't your grandparent's Simon game – it's a whole new vibe!
+
+Get ready to put your memory and reflexes to the test as you sync with the colorful patterns and catchy tunes. But "VibeSync" isn't just about following the rhythm; it's about creating your own, too. With our modernized gameplay, you'll be able to share your progress, challenge friends, and experience the game's social side.
+
+So, whether you're a die-hard Simon fan or a newcomer to the world of memory games, "VibeSync" offers something for everyone. Stay tuned as we embark on this thrilling adventure with New Vibe Game and set the stage for a web-based gaming experience that's bound to make your heart race and your brain groove.
 
 ![New Vibe Game shown on a range of devices](assets/documentation-media/Picture1.png)
 
@@ -59,31 +65,34 @@ New Vibe Game is a game inpired on 'Simon Game' to allow the user to play with t
 
 ### Initial Discussion
 
-TRIP is not your ordinary travel agency; they are the embodiment of wanderlust, adventure, and personalized experiences. Their mission is to curate unforgettable journeys for their customers, showcasing the world's most enchanting destinations, hidden gems, and cultural wonders. TRIP aims to provide hassle-free travel planning, exceptional customer service, and a seamless booking experience for travelers of all kinds.
+New Vibe Game is a forward-thinking game agency renowned for their innovative approach to web-based gaming. They are dedicated to crafting experiences that not only captivate audiences but also set new standards in interactive entertainment. Their commitment to pushing boundaries aligns perfectly with our vision for "VibeSync."
 
-They are looking to reflects their brand identity and takes their online presence to new heights.
+They look for the right balance betweeb nostalgia and innovation. Bringing back from the past a redesigned with fresh and modern elements of 'Simon Game'. 
+
 
 #### Key information for the site
 
-* Booking Functionality: Seamless integration of a booking system, where customers can easily reserve their trips and make secure payments.
+* Modernized Interface: A sleek, user-friendly web interface designed for seamless gameplay across various devices.
 
-* Mobile Responsiveness: With an increasing number of travelers using mobile devices to browse and book trips, it's crucial that the website is fully optimized for mobile and tablet use.
+* Vibrant and Engaging: Utilize a visually stimulating palette to create an immersive environment that complements the gameplay.
 
-* Engaging Content: The website should feature compelling and informative content, such as destination guides, travel tips, and captivating travel stories to inspire potential clients.
+* Interactive Elements: Engaging elements that encourage user interaction and enhance the gaming experience.
 
-* Aesthetic Appeal: The website should have a visually striking design that aligns with TRIP's adventurous spirit and showcases the breathtaking beauty of the destinations they offer.
+* Clear Guide: Simple and clear guide for instructions.
 
 ### User Stories
 
 #### Client Goals
 
-* Mobile-First Approach: Recognizing the prevalence of mobile usage in the travel industry, TRIP wants the website to be fully responsive and optimized for mobile and tablet devices. It's essential to ensure that users have a seamless browsing and booking experience, regardless of the device they use.
+* Quality Assurance and Bug-Free Gameplay: Conduct thorough testing to identify and rectify any bugs or issues, guaranteeing a polished and reliable gaming experience.
 
-* Establishing an Inspirational Brand Identity: TRIP wants their website to reflect their identity as a travel agency that goes beyond the ordinary. 
+* Interactive Features: Incorporate elements that encourage player engagement and interaction within the game, enhancing overall enjoyment.
 
-* Enhancing User Experience and Navigation: One of TRIP's primary goals is to offer a seamless and intuitive user experience. They want website visitors to easily find and explore their diverse range of travel packages, destination guides, and travel-related content. Clear and concise navigation is crucial, allowing users to access relevant information effortlessly.
+* Seamless Web-Based Gameplay: Ensure the game operates smoothly on various web browsers and devices, providing a consistent experience for all players.
 
-* Showcasing a Personalized Approach: TRIP takes pride in their ability to create personalized travel experiences for each customer. They want the website to reflect this unique aspect of their service by incorporating features that allow users to customize their itineraries, express their preferences, and request bespoke travel plans.
+* Engaging User Experience: Create a game that captivates players from the first interaction, offering an immersive and enjoyable experience.
+
+* Nostalgia with a Modern Twist: Retain the essence of the classic Simon game while infusing it with contemporary elements to appeal to a broad audience.
 
 #### First Time Visitor Goals
 
