@@ -146,4 +146,3 @@ const lose = () => {
   Score.innerHTML = `You stopped at level: ${count}`;
   startBtn.style.display = "inline";
 };
-
