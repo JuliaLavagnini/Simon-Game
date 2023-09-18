@@ -158,11 +158,11 @@ h2{
 
 @media (max-width: 600px) {
     .popupHelp{
-        width: 470px;
+        width: 100%;
     }
 
     .popup{
-        width: 444px;
+        width: 100%;
     }
 
     .center{
