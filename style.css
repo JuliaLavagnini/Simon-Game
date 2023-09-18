@@ -10,6 +10,12 @@ body {
   color: #757575;
 }
 
+h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(0, 93, 219);
+}
+
 .popup {
   background: radial-gradient(
     328px at 2.9% 15%,
