@@ -96,21 +96,19 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 #### First Time Visitor Goals
 
-* I'm eager to read engaging travel guides, tips, and stories that ignite my imagination and fuel my desire to embark on a new adventure. I hope to find a treasure trove of content that helps me envision the unique experiences TRIP can curate.
+* I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
 
-* Since I often browse on my mobile device, I expect the website to be responsive and easy to navigate on my smartphone or tablet. A mobile-friendly design is essential for a seamless experience.
+* I hope to receive a clear and concise explanation of how to play "VibeSync" so I can dive right into the action without any confusion.
 
-* I want to explore a diverse range of extraordinary destinations. As a wanderlust-driven traveler, I'm eager to uncover hidden gems, pristine beaches, majestic mountains, and culturally rich cities that TRIP has to offer.
+* Navigating through the game should be intuitive and hassle-free, allowing me to focus on the gameplay itself.
+
+* I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.
 
 #### Returning Visitor Goals
 
-* As a repeat visitor, I'm eager to see what fresh and exciting travel packages TRIP has introduced since my last visit. I want to discover new destinations, unique experiences, and exclusive offers that may not have been available before.
+* It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.
 
-*  I come back to the website to check for updates, promotions, and seasonal specials. I want to be informed about any limited-time deals or exclusive packages that align with my travel preferences.
-
-#### Frequent Visitor Goals
-
-* Given my frequent use of the website, I rely on its mobile-friendly design to access information and book trips on the go. I expect the website to remain convenient and easy to navigate across all devices.
+*  I look forward to reviewing my progress and achievements, gaining a sense of accomplishment and motivation to continue playing.
 
 - - -
 
