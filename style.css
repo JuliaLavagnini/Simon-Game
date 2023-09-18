@@ -40,7 +40,7 @@ body{
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 1) 23%, rgba(223, 159, 247, 1) 93%);
     box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
     color: #121212;
-    width: 952px;
+    width: 650px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -64,8 +64,8 @@ i:hover{
 }
 
 .helpBtn{
- width: fit-content;
- margin: 10px;
+    width: fit-content;
+    margin: 10px;
 }
 
 h2{
@@ -114,21 +114,21 @@ h2{
 }
 
 #simon div{
-  margin: 10px;
-  padding: 5px;
+    margin: 10px;
+    padding: 5px;
 }
 
 .center {
-  height: 30vh;
-  width: 30vh;
-  position: absolute;
-  background-color: #FFFf;
-  color: #121212;
-  font-size: 10rem;
-  font-weight: 800;
-  border-radius: 50%;
-  line-height: 29vh;
-  z-index: 0;
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    background-color: #FFFf;
+    color: #121212;
+    font-size: 10rem;
+    font-weight: 800;
+    border-radius: 50%;
+    line-height: 29vh;
+    z-index: 0;
 }
 
 .startBtn{
@@ -156,3 +156,37 @@ h2{
     color: #121212;
 }
 
+@media (max-width: 600px) {
+    .popupHelp{
+        width: 470px;
+    }
+
+    .popup{
+        width: 444px;
+    }
+
+    .center{
+        height: 26vh;
+        width: 26vh;
+        font-size: 7rem;
+        line-height: 27vh;
+    }
+}
+
+@media (min-width: 600px){
+.popupHelp{
+    width: 553px;
+}
+}
+
+@media(min-width: 768px){
+    .popupHelp{
+        width: 610px;
+}
+}
+
+@media (min-width: 992px) {
+.popupHelp{
+    width: 939px;
+}
+}
