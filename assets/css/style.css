@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(assets/media/Background.png);
+  background-image: url("../media/Background.png");
   display: grid;
   height: 100vh;
   color: #757575;
@@ -184,8 +184,16 @@ h2 {
   .center {
     height: 26vh;
     width: 26vh;
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 27vh;
+  }
+
+  footer p {
+    font-size: 9px;
+  }
+
+  h1 {
+    font-size: 48px;
   }
 }
 
@@ -193,11 +201,19 @@ h2 {
   .popupHelp {
     width: 553px;
   }
+
+  footer p {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 768px) {
   .popupHelp {
     width: 610px;
+  }
+
+  footer p {
+    font-size: 16px;
   }
 }
 
