@@ -259,29 +259,23 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * First Time Visitors
 
-  * Since I often browse on my mobile device, I expect the website to be responsive and easy to navigate on my smartphone or tablet. A mobile-friendly design is essential for a seamless experience.
+  * I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
 
-  ![Small device screen](assets/documentation-media/small-device.png)
+  ![Game on Desktop screen](assets/documentation-media/Desktop-version.png)
 
-  * I want to explore a diverse range of extraordinary destinations. As a wanderlust-driven traveler, I'm eager to uncover hidden gems, pristine beaches, majestic mountains, and culturally rich cities that TRIP has to offer.
+  * I hope to receive a clear and concise explanation of how to play "VibeSync" so I can dive right into the action without any confusion.
 
-  ![Destinations](assets/documentation-media/destinations-use.png)
+  ![Intructions screen](assets/documentation-media/Intructions.png)
+
+  * I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.
+  ![Game Play](assets/documentation-media/Playing.gif)
 
 * Returning Visitors
 
-  * As a repeat visitor, I'm eager to see what fresh and exciting travel packages TRIP has introduced since my last visit. I want to discover new destinations, unique experiences, and exclusive offers that may not have been available before..
+  * It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.
 
-  ![Packages](assets/documentation-media/package.png)
-
-  * I come back to the website to check for updates, promotions, and seasonal specials. I want to be informed about any limited-time deals or exclusive packages that align with my travel preferences.
-
-  ![Ways of deals 1](assets/documentation-media/deals-1.png)
-  ![Ways of deals 2](assets/documentation-media/deals-2.png)
-
-* Frequent Visitors
-  * Given my frequent use of the website, I rely on its mobile-friendly design to access information and book trips on the go. I expect the website to remain convenient and easy to navigate across all devices.
-
-  ![Small device screen](assets/documentation-media/small-device.png)
+  ![Game](assets/documentation-media/Desktop-version.png)
+  ![Game Play](assets/documentation-media/Playing.gif)
 
 ### Lighthouse
 
