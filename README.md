@@ -116,15 +116,16 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 ### Colour Scheme
 
-![TRIP. Travel Agency Website colour palette](<assets/documentation-media/Trip. website colour palette.png>)
+![VibeSync, game colour palette](<assets/documentation-media/Game-colours.png>)
+![VibeSync, game colour palette](<assets/documentation-media/Game-colours-active.png>)
 
-The game uses a palette of pastel colours to assembly a different mordern design. The colour palette was created using the [Coolors](https://coolors.co/) website.
+The game uses a palette of pastel colours and same colour but in the bright tone to assembly a different mordern design. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
 Google Fonts was used for the following font with different font weight:
 
-* Outfit is used on the whole website. It is a sans-serif font.
+* Work Sans is used on the whole website. It is a sans-serif font.
 
 ### Imagery
 
