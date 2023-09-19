@@ -303,15 +303,11 @@ Links.
 ## Credits
 
 ### Code Used
-
-* [Button tag with onclick event](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html)
-* [Boostrap - navbar with modifications](https://getbootstrap.com/docs/5.3/components/navbar/#external-contentl)
-* [Boostrap - modal with modifications](https://getbootstrap.com/docs/5.3/components/modal/)
-* [Foolish Developer channel tutorial - back to the top button and images grid](https://www.youtube.com/watch?v=ws-_4yxKJ8g)
+* [Coding Artist - Automatic Pop-Up Javascript](https://codingartistweb.com/2021/08/show-popup-automatically-after-page-load-using-javascript/)
 
 ### Content
 
-Content for the game was written by the owner of Julia Lavagnini.
+Content for the game was written by the owner Julia Lavagnini.
 
 ### Media
 
@@ -320,7 +316,7 @@ Content for the game was written by the owner of Julia Lavagnini.
 #### Other Images
 
 * icon from service section was part of Font Anwesome website.
-[Font Anwesome - globe](https://fontawesome.com/icons/globe?f=classic&s=solid)
-[Font Anwesome - plane](https://fontawesome.com/icons/plane?f=classic&s=solid)
-[Font Anwesome - globe](https://fontawesome.com/icons/dollar-sign?f=classic&s=solid)
+[Font Anwesome - help-info](https://fontawesome.com/icons/circle-info?f=classic&s=solid)
+[Font Anwesome - heart](https://fontawesome.com/icons/heart?f=classic&s=solid)
+[Font Anwesome - github](https://fontawesome.com/icons/github?f=brands&s=solid)
 
