@@ -245,11 +245,8 @@ The following issues were raised during my mid project meeting with my mentor:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page HTML](assets/documentation-media/index-validator.png)
-* [Destination Page HTML with errors stated](assets/documentation-media/destinations-error-validator.png)
-* [Destination Page HTML with solved](assets/documentation-media/destinations-validator.png)
-* [About Page HTML](assets/documentation-media/about-validator.png)
-* [style.css CSS](assets/documentation-media/css-validator.png)
+* [HTML Validator](assets/documentation-media/Html-w3-validator.png)
+* [CSS Validator](assets/documentation-media/Css-w3-validator.png)
 
 ### Solved Bugs
 
