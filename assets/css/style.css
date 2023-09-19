@@ -90,7 +90,9 @@ i:hover {
 
 .helpBtn {
   width: fit-content;
-  margin: 10px;
+  position: relative;
+  bottom: 55%;
+  padding-left: 30px;
 }
 
 h2 {
@@ -99,8 +101,8 @@ h2 {
 }
 
 .container {
-  max-width: 615px;
-  max-height: 797px;
+  position: relative;
+  bottom: 8%;
 }
 
 .color1 {
