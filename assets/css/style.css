@@ -27,7 +27,7 @@ h1{
   );
   box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
   color: #121212;
-  width: 580px;
+  width: 394px;
   padding: 30px 40px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -36,6 +36,14 @@ h1{
   border-radius: 8px;
   display: none;
   z-index: 1;
+}
+
+.popup span {
+  line-height: 10px;
+}
+
+.popup .title{
+  color: #ff00f2;
 }
 
 .popup button {
@@ -175,10 +183,27 @@ h2 {
 @media (max-width: 600px) {
   .popupHelp {
     width: 100%;
+    line-height: 24px;
+  }
+
+  .popupHelp h2 {
+    font-size: 20px;
+  }
+
+  .popupHelp ul li {
+    font-size: 14px;
   }
 
   .popup {
     width: 100%;
+  }
+
+  .popup h2 {
+    line-height: 14px;
+  }
+
+  .popup span {
+    line-height: 50px;
   }
 
   .center {
