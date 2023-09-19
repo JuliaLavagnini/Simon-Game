@@ -116,9 +116,9 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 ### Colour Scheme
 
-![TRIP. Travel Agency Website colour palette](<assets/documentation-media/Trip. website colour palette.png>))
+![TRIP. Travel Agency Website colour palette](<assets/documentation-media/Trip. website colour palette.png>)
 
-The website uses a palette of vibrat colours to assembly their logo image. The colour palette was created using the [Coolors](https://coolors.co/) website.
+The game uses a palette of pastel colours to assembly a different mordern design. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
@@ -128,7 +128,7 @@ Google Fonts was used for the following font with different font weight:
 
 ### Imagery
 
-All images used was from license free websites as Unsplash.
+All media was created by myself.
 
 ### Wireframes
 
@@ -197,7 +197,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+HTML CSS, Java Script were used to create this game.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -215,10 +215,6 @@ Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[Optimizilla](https://imagecompressor.com/) To compress images.
-
-[Favicon.io](https://favicon.io/) To create favicon.
-
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
@@ -233,7 +229,7 @@ Netfily was used to deploy the live website. The instructions to achieve this ar
 
 1. Log in (or sign up) with your Github.
 2. Click on the Add new site.
-3. Find the repository for this project, TRIP.-travel-agency-website.
+3. Find the repository for this project, Simon-Game.
 4. Click on Create.
 5. Now let it load, once is ready a link to access will be provided.
 
@@ -244,7 +240,7 @@ Netfily was used to deploy the live website. The instructions to achieve this ar
 To fork the Bully-Book-Club repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, JuliaLavagnini/TRIP.-travel-agency-website.
+2. Go to the repository for this project, JuliaLavagnini/Simon-Game.
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -252,7 +248,7 @@ To fork the Bully-Book-Club repository:
 To clone the TRIP.-travel-agency-website repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, JuliaLavagnini/TRIP.-travel-agency-website.
+2. Go to the repository for this project, JuliaLavagnini/Simon-Game.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -352,15 +348,13 @@ Links.
 
 ### Content
 
-Content for the website was written by the owner of Julia Lavagnini.
+Content for the game was written by the owner of Julia Lavagnini.
 
 ### Media
 
-* All media used to obtain from Unplash, an license free website.
+* All media used from self creation.
 
 #### Other Images
-
-* TRIP. Logo - My self creation.
 
 * icon from service section was part of Font Anwesome website.
 [Font Anwesome - globe](https://fontawesome.com/icons/globe?f=classic&s=solid)
