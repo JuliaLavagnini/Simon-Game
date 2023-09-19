@@ -196,40 +196,6 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 - - -
 
-## Deployment & Local Development
-
-### Deployment
-
-Netfily was used to deploy the live website. The instructions to achieve this are below:
-
-1. Log in (or sign up) with your Github.
-2. Click on the Add new site.
-3. Find the repository for this project, Simon-Game.
-4. Click on Create.
-5. Now let it load, once is ready a link to access will be provided.
-
-### Local Development
-
-#### How to Fork
-
-To fork the Bully-Book-Club repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, JuliaLavagnini/Simon-Game.
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the TRIP.-travel-agency-website repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, JuliaLavagnini/Simon-Game.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
-- - -
-
 ## Testing
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
