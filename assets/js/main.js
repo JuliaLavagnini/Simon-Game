@@ -107,42 +107,44 @@ const getRandomValue = (obj) => {
 //Call functions on DOM
 startBtn.addEventListener("click", (event) => {
   startGame();
+  colorPartActive();
 });
 
 //When user click on the colors
-colorPart.forEach((element) => {
-  element.addEventListener("click", async (i) => {
-    //if user clicks the same color then next level
-    if (pathGenerator) {
-      return false;
-    } else if (
-      i.target.classList[0] == randomColors[clickCount]
-    ) {
-      //blick effect on click
-      i.target.style.backgroundColor = `${
-        colors[randomColors[clickCount]]["new"]
-      }`;
-      await delay(500);
-      i.target.style.backgroundColor = `${
-        colors[randomColors[clickCount]]["current"]
-      }`;
-      //User click
-      clickCount += 1;
-      //Next level if number of valid clicks == count
-      if (clickCount == count) {
-        clickCount = 0;
-        pathway();
+const colorPartActive = () => {
+  colorPart.forEach((element) => {
+    element.addEventListener("click", async (i) => {
+      //if user clicks the same color then next level
+      if (pathGenerator) {
+        return false;
+      } else if (
+        i.target.classList[0] == randomColors[clickCount]
+      ) {
+        //blick effect on click
+        i.target.style.backgroundColor = `${
+          colors[randomColors[clickCount]]["new"]
+        }`;
+        await delay(500);
+        i.target.style.backgroundColor = `${
+          colors[randomColors[clickCount]]["current"]
+        }`;
+        //User click
+        clickCount += 1;
+        //Next level if number of valid clicks == count
+        if (clickCount == count) {
+          clickCount = 0;
+          pathway();
+        }
+      } else {
+        lose();
       }
-    } else {
-      lose();
-    }
+    });
   });
-});
-
+}
 //Function to when the user gets the sequence wrong
 const lose = () => {
   countCenter.innerHTML = " X ";
   countCenter.style.color = "#FF0000";
-  Score.innerHTML = `You stopped at level: ${count}`;
+  score.innerHTML = `You stopped at level: ${count}`;
   startBtn.style.display = "inline";
 };

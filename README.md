@@ -250,13 +250,10 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
-1. The hero section would lose its alignment when on smaller devices, with a font size much bigger than the screen proportion. CSS queries is necessary suit the font size according to the screen proportion. Also, aligment with padding and background image were adjust to fit.
+1. ColourPart loop was put into a function to only initiate when the user click on 'Start' button. This way will prevent 'undefine' code and disable clickable colours to only active once start.
 
-2. The button on navagation bar has to be adjust to be able to work as a link. By remove link tag and add a onclick event.
+2. The feedback 'You stopped at level: ... ' code is fixed on JavaScript file due to misspelled error.
 
-3. The navigation bar present on the pages with light background had to be adjust to fit the page. By adding a different class to style to CSS and named it 'navigation dark'.
-
-4. The back to top function was implemented to improve usuability, with that in mind a Javascript file and code had to be added for a fully functionality. 
 
 ### Testing User Stories
 
