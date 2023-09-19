@@ -135,11 +135,9 @@ All media was created by myself.
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](assets/documentation-media/Home.png)
+[Main Wireframe](assets/documentation-media/Main-wireframe.png)
 
-[Destinations Page Wireframe](assets/documentation-media/Destinations.png)
-
-[About Page Wireframe](assets/documentation-media/About-Us.png)
+[Popups Wireframe](assets/documentation-media/Popups-wireframes.png)
 
 ### Features
 
