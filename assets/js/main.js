@@ -1,7 +1,7 @@
 const startBtn = document.querySelector("#startBtn");
 const countCenter = document.querySelector("#count");
 const colorPart = document.querySelectorAll(".color-part");
-const Score = document.querySelector("#Score");
+const score = document.querySelector("#score");
 
 //Intro Popup
 window.addEventListener("load", function () {
