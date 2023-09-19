@@ -141,54 +141,30 @@ Wireframes were created for mobile, tablet and desktop.
 
 ### Features
 
-The website is comprised of three pages, all accessible from the navigation menu (home page, destination page & about us page).
+* The game is composed of a single page with responsive design accessible in all range of devices.
 
-* All Pages on the website have:
+* Start button is hidden once the user start to play and back to visible once stopped.
 
-  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of travrl agency logo. To the right of the navigation bar are the links to the websites pages (home, destinations, and about us). To allow a good user experience of the site, the TRIP. text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
-  * On the navigation bar there is a button "get started" that will send the user imediatly to the bookind section.
+* A intro popup screen presenting the game load everytime the window start.
 
-* Home Page.
-  * Popular Destination Section.
-  The images are aligned in a grid system with zoom in when hover and access to the the specific destination aligned with the image on destination page.
+* The game is not limited to a number of plays.
 
-  * Our Services Section.
-  This section section changes each box color when hover to orange for a nice interaction.
+* The help button shows popup explaining how to play.
 
-  * Awesome Package Section.
-  This section allows the user to see some packages and click for more information which will send them to destinations page, or send to book section. Each book now button will open the booking section on a new tab.
-
-  * Booking Section.
-  This section allows the user to book a trip with form interaction. After click "book now" a popup message will appear showing the order ID, a contact number in case of need and a message saying an agent will contact shortly. 
-
-  * Newsletter Section.
-  It will give to the user a chance to stay informed about trip, deals, article, tips and more. It will be shown on a popup message after put email and click "join our newsletter".
-  
-  * Back to the top button.
-  This button when clicked will send the user back to the beggining of the page.
-
-
-* Destinations Page.
-  * Each destination has your own box image clickable that will shown up a popup screen with a video about this destination.
-  * Back to the top button.
-  This button when clicked will send the user back to the beggining of the page.
+* A content phrase appear once the game is over showing where the user stop.
 
 * Future Implementations.
-  * Implement a more efficiaty booking system with a possibility online payment.
-  * Review section to show trustworthiness and credibility to the customer.
-  * Information on how to access customer services with chat, email and telephone number.
-  * A user account - to give to the user acess and control of his data.
-  * Create social media for a better engagement with potential users. 
+  * Implement a ranking list to store and display higher scores.
+  * Add a sharing button to allow users share their restuls.
 
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
 * Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
-* Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
+* Providing information for screen readers where there are icons used and no text - such as the help button and footer section icons.
 * Ensuring that there is a sufficient colour contrast throughout the site.
-* Ensuring menus are accessible by marking the current page as current for screen readers.
+* Provide clear intructions content.
 
 - - -
 
