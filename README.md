@@ -8,7 +8,7 @@ Get ready to put your memory and reflexes to the test as you sync with the color
 
 So, whether you're a die-hard Simon fan or a newcomer to the world of memory games, "VibeSync" offers something for everyone. Stay tuned as we embark on this thrilling adventure with New Vibe Game and set the stage for a web-based gaming experience that's bound to make your heart race and your brain groove.
 
-![New Vibe Game shown on a range of devices](assets/documentation-media/Picture1.png)
+![New Vibe Game shown on a range of devices](assets/documentation-media/Screens.png)
 
 [View New Vibe Game on Netlify](https://newvibe-game.netlify.app/)
 
