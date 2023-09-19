@@ -1,0 +1,22 @@
+{
+  "name": "simon-game",
+  "version": "1.0.0",
+  "description": "Welcome to the world of \"VibeSync,\" where classic meets contemporary in the realm of web-based gaming. Join us on a journey that reimagines the beloved Simon game with a fresh and vibrant twist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaLavagnini/Simon-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaLavagnini/Simon-Game/issues"
+  },
+  "homepage": "https://github.com/JuliaLavagnini/Simon-Game#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
