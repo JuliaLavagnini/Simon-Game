@@ -39,6 +39,7 @@
     <meta name="description" content="VibeSync, is a game created to remember the old fashion Simon Game">
   </head>
   <body>
+    <!--Header with title and help button-->
     <header>
       <h1 class=" d-flex justify-content-center mt-3">VibeSync,</h1>
       <button class="btn helpBtn">
@@ -46,6 +47,7 @@
       </button>
     </header>
     <main>
+      <!--Popup with intructions that will appear when click on help button-->
       <div class="popupHelp" style="visibility: hidden">
         <h2>
           Let’s remember (or learn, who knows??) how to
@@ -68,7 +70,7 @@
           </li>
         </ul>
       </div>
-
+      <!--Popup to present the game-->
       <div class="popup">
         <button id="close">&times;</button>
         <h2 class="title">VibeSync, <br> <span style="font-size: 14px;">by New Vibe Game</span></h2>
@@ -80,21 +82,24 @@
           Click on help icon to know the rules!
         </p>
       </div>
-
       <div
         class="container d-flex justify-content-center"
       >
         <div class="row text-center flex-column">
           <div class="col wrapper main">
+            <!--Score line to show achived level once game is over-->
             <p id="score"></p>
+            <!--Colours part to show different colours to play th game-->
             <div id="simon" style="min-width: 300px;">
               <div class="color1 color-part"></div>
               <div class="color2 color-part"></div>
               <div class="color3 color-part"></div>
               <div class="color4 color-part"></div>
             </div>
+            <!--Center count that will change once plays is right -->
             <div class="center sm" id="count">0</div>
           </div>
+          <!--Start button to initiciate the game-->
           <div class="col mt-3">
             <div class="button">
               <button
@@ -109,6 +114,7 @@
         </div>
       </div>
     </main>
+    <!--Footer with creator info-->
     <footer class="d-flex justify-content-between mt-5 ms-3 me-3">
       <p>Created by Julia <i class="fa-solid fa-heart" style="color: #ff0000;"></i></p>
       <p>Built for educational purposes only</p>

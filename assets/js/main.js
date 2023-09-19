@@ -1,9 +1,11 @@
-const startBtn = document.querySelector("#startBtn");
-const countCenter = document.querySelector("#count");
+const startBtn = document.getElementById("startBtn");
+const countCenter = document.getElementById("count");
 const colorPart = document.querySelectorAll(".color-part");
-const score = document.querySelector("#score");
+const score = document.getElementById("score");
 
-//Intro Popup
+/**
+ * Intro Popup
+ */
 window.addEventListener("load", function () {
   setTimeout(function open(event) {
     document.querySelector(".popup").style.display =
@@ -17,7 +19,9 @@ document
     document.querySelector(".popup").style.display = "none";
   });
 
-//Help Button
+/** 
+ * Help Button
+*/
 let objHidden = false;
 const help = document.querySelector(".helpBtn");
 help.addEventListener("click", function () {
@@ -32,7 +36,9 @@ help.addEventListener("click", function () {
   }
 });
 
-// Mapping colors objects
+/**
+ * Mapping colors objects
+ */
 const colors = {
   color1: {
     current: "#BD87DE",
@@ -57,7 +63,9 @@ let pathGenerator = false;
 let count,
   clickCount = 0;
 
-//Start the game
+/**
+ * Start the game
+ */
 const startGame = () => {
   count = 0;
   clickCount = 0;
@@ -69,7 +77,9 @@ const startGame = () => {
   countCenter.style.color = "#121212";
 };
 
-//Function to decide and play the sequence
+/**
+ * Function to decide and play the sequence
+ */
 const pathway = () => {
   randomColors.push(getRandomValue(colors));
   count = randomColors.length;
@@ -91,26 +101,34 @@ const pathwayPlay = async (count) => {
   pathGenerator = false;
 };
 
-//Delay for blink effect to use on pathwayPlay()
+/**
+ * Delay for blink effect to use on pathwayPlay()
+ */
 async function delay(time) {
   return await new Promise((resolve) => {
     setTimeout(resolve, time);
   });
 }
 
-//Function to get a random value from object
+/**
+ * Function to get a random value from object
+ */
 const getRandomValue = (obj) => {
   let arr = Object.keys(obj);
   return arr[Math.floor(Math.random() * arr.length)];
 };
 
-//Call functions on DOM
+/**
+ * Call functions on DOM
+ */
 startBtn.addEventListener("click", (event) => {
   startGame();
   colorPartActive();
 });
 
-//When user click on the colors
+/**
+ * When user click on the colors
+ */
 const colorPartActive = () => {
   colorPart.forEach((element) => {
     element.addEventListener("click", async (i) => {
@@ -141,7 +159,10 @@ const colorPartActive = () => {
     });
   });
 }
-//Function to when the user gets the sequence wrong
+
+/**
+ * Function to when the user gets the sequence wrong
+ */
 const lose = () => {
   countCenter.innerHTML = " X ";
   countCenter.style.color = "#FF0000";
