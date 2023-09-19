@@ -288,15 +288,9 @@ Lighthouse testing :
 
 ### Full Testing
 
-To fully test my website I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox) and devices (Macbook Pro 14 inch, iPhone 13 pro).
+To fully test my website I performed the following testing using a number of browsers (google chrome and safari) and devices (HP Pavillion 15.6 inch and iPhone 12).
 
-I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
-
-Links.
-
-1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-2. Test each link on the destisnation page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-3. Test each link on the about page. Each link worked as expected.
+I also went through the using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
 - - -
 
