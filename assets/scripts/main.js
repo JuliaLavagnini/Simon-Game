@@ -8,14 +8,12 @@ const score = document.getElementById("score");
  */
 window.addEventListener("load", function () {
   setTimeout(function open(event) {
-    document.querySelector(".popup").style.display =
-      "inline";
+    document.querySelector(".popup").style.display = "inline";
   }, 1000);
 });
 
-document
-  .querySelector("#close")
-  .addEventListener("click", function () {
+let closeWindowm = document.getElementById("closeWindown");
+closeWindowm.addEventListener("click", function () {
     document.querySelector(".popup").style.display = "none";
   });
 
@@ -27,12 +25,10 @@ const help = document.querySelector(".helpBtn");
 help.addEventListener("click", function () {
   if (objHidden) {
     objHidden = false;
-    document.querySelector(".popupHelp").style.visibility =
-      "visible";
+    document.querySelector(".popupHelp").style.visibility = "visible";
   } else {
     objHidden = true;
-    document.querySelector(".popupHelp").style.visibility =
-      "hidden";
+    document.querySelector(".popupHelp").style.visibility = "hidden";
   }
 });
 
@@ -60,8 +56,7 @@ const colors = {
 
 let randomColors = [];
 let pathGenerator = false;
-let count,
-  clickCount = 0;
+let count, clickCount = 0;
 
 /**
  * Start the game
@@ -169,3 +164,5 @@ const lose = () => {
   score.innerHTML = `You stopped at level: ${count}`;
   startBtn.style.display = "inline";
 };
+
+module.exports = { startGame };
