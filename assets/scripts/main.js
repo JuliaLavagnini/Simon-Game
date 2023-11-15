@@ -8,7 +8,8 @@ const score = document.getElementById("score");
  */
 window.addEventListener("load", function () {
   setTimeout(function open(event) {
-    document.querySelector(".popup").style.display = "inline";
+    document.querySelector(".popup").style.display =
+      "inline";
   }, 1000);
 });
 
@@ -19,18 +20,20 @@ if (closeWindow) {
   });
 }
 
-/** 
+/**
  * Help Button
-*/
+ */
 let objHidden = false;
 const help = document.querySelector(".helpBtn");
 help.addEventListener("click", function () {
   if (objHidden) {
     objHidden = false;
-    document.querySelector(".popupHelp").style.visibility = "visible";
+    document.querySelector(".popupHelp").style.visibility =
+      "visible";
   } else {
     objHidden = true;
-    document.querySelector(".popupHelp").style.visibility = "hidden";
+    document.querySelector(".popupHelp").style.visibility =
+      "hidden";
   }
 });
 
@@ -58,19 +61,27 @@ const colors = {
 
 let randomColors = [];
 let pathGenerator = false;
-let count, clickCount = 0;
+let count,
+  clickCount = 0;
+
+/**
+ * Function to reset game state
+ */
+const resetGameState = () => {
+  count = 0;
+  clickCount = 0;
+  randomColors = [];
+  countCenter.innerHTML = "0";
+};
 
 /**
  * Start the game
  */
 const startGame = () => {
-  count = 0;
-  clickCount = 0;
-  randomColors = [];
+  resetGameState();
   pathGenerator = true; // Set pathGenerator to true
   startBtn.style.display = "none";
   pathway();
-
   countCenter.style.color = "#121212";
 };
 
@@ -79,13 +90,12 @@ const startGame = () => {
  */
 const pathway = () => {
   randomColors.push(getRandomValue(colors));
-  count = randomColors.length;
   pathGenerator = true;
-  pathwayPlay(count);
+  pathwayPlay();
 };
 
-const pathwayPlay = (count) => {
-  countCenter.innerText = count;
+const pathwayPlay = () => {
+  countCenter.innerText = randomColors.length; // Display the current level
   let index = 0;
 
   function playColor() {
@@ -128,26 +138,16 @@ const getRandomValue = (obj) => {
 };
 
 /**
- * Call functions on DOM
- */
-startBtn.addEventListener("click", (event) => {
-  startGame();
-  colorPartActive();
-});
-
-/**
  * When user click on the colors
  */
 const colorPartActive = () => {
   colorPart.forEach((element) => {
     element.addEventListener("click", async (i) => {
-      //if user clicks the same color then next level
       if (pathGenerator) {
         return false;
       } else if (
-        i.target.classList[0] == randomColors[clickCount]
+        i.target.classList[0] === randomColors[clickCount]
       ) {
-        //blick effect on click
         i.target.style.backgroundColor = `${
           colors[randomColors[clickCount]]["new"]
         }`;
@@ -155,10 +155,8 @@ const colorPartActive = () => {
         i.target.style.backgroundColor = `${
           colors[randomColors[clickCount]]["current"]
         }`;
-        //User click
         clickCount += 1;
-        //Next level if number of valid clicks == count
-        if (clickCount == count) {
+        if (clickCount === randomColors.length) {
           clickCount = 0;
           pathway();
         }
@@ -167,17 +165,22 @@ const colorPartActive = () => {
       }
     });
   });
-}
+};
 
 /**
  * Function to when the user gets the sequence wrong
  */
 const lose = () => {
-  pathGenerator = false; // Reset pathGenerator
-  clickCount = 0; // Reset clickCount
+  pathGenerator = false;
   countCenter.innerHTML = " X ";
   countCenter.style.color = "#FF0000";
-  score.innerHTML = `You stopped at level: ${count}`;
+  score.innerHTML = `You stopped at level: ${
+    randomColors.length - 1
+  }`;
   startBtn.style.display = "inline";
+  resetGameState(); // Reset game state at the end
 };
 
+// Initialize game events
+startBtn.addEventListener("click", startGame);
+colorPartActive(); // Set up color part events once
