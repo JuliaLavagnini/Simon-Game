@@ -12,10 +12,12 @@ window.addEventListener("load", function () {
   }, 1000);
 });
 
-let closeWindowm = document.getElementById("closeWindown");
-closeWindowm.addEventListener("click", function () {
+const closeWindow = document.getElementById("closeWindow");
+if (closeWindow) {
+  closeWindow.addEventListener("click", function () {
     document.querySelector(".popup").style.display = "none";
   });
+}
 
 /** 
  * Help Button
@@ -65,7 +67,7 @@ const startGame = () => {
   count = 0;
   clickCount = 0;
   randomColors = [];
-  pathGenerator = false;
+  pathGenerator = true; // Set pathGenerator to true
   startBtn.style.display = "none";
   pathway();
 
@@ -82,18 +84,30 @@ const pathway = () => {
   pathwayPlay(count);
 };
 
-const pathwayPlay = async (count) => {
+const pathwayPlay = (count) => {
   countCenter.innerText = count;
-  for (let item of randomColors) {
-    let currentColor = document.querySelector(`.${item}`);
-    await delay(500);
-    currentColor.style.backgroundColor = `${colors[item]["new"]}`;
+  let index = 0;
 
-    await delay(400);
-    currentColor.style.backgroundColor = `${colors[item]["current"]}`;
-    await delay(500);
+  function playColor() {
+    if (index < randomColors.length) {
+      let item = randomColors[index];
+      let currentColor = document.querySelector(`.${item}`);
+
+      currentColor.style.backgroundColor = `${colors[item]["new"]}`;
+      setTimeout(() => {
+        currentColor.style.backgroundColor = `${colors[item]["current"]}`;
+        setTimeout(() => {
+          index++;
+          playColor();
+        }, 500);
+      }, 400);
+    } else {
+      index = 0; // Reset index for the next sequence
+      pathGenerator = false;
+    }
   }
-  pathGenerator = false;
+
+  playColor();
 };
 
 /**
@@ -159,10 +173,11 @@ const colorPartActive = () => {
  * Function to when the user gets the sequence wrong
  */
 const lose = () => {
+  pathGenerator = false; // Reset pathGenerator
+  clickCount = 0; // Reset clickCount
   countCenter.innerHTML = " X ";
   countCenter.style.color = "#FF0000";
   score.innerHTML = `You stopped at level: ${count}`;
   startBtn.style.display = "inline";
 };
 
-module.exports = { startGame };
