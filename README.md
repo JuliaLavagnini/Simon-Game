@@ -241,6 +241,13 @@ The following issues were raised during my mid project meeting with my mentor:
 * The navagation bar was not showing up on small devices. It now present a collapse content and center.
 * The date field on booking section was not appearing. It required a change on the date field class and data-target.
 
+## JavaScript Validator
+The Jest tests present on this project was hard to implement has structure did not follow each other between the files. Only one test was implemented to test if the sequence was being displayed correctly and this test pass. So the decision to implement manual tests was giving to be able to still test for functionality. 
+This framework washard to follow and understand the test driven development, as a final statement Jest will be implemented in others projects but before more pratice is required to use it in a time sentive project. 
+
+![Jest Test Part 1](assets/documentation-media/Jest-test-p1.png)
+![Jest Test Part 2](assets/documentation-media/Jest-test-p2.png)
+
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -291,6 +298,8 @@ Lighthouse testing :
 To fully test my website I performed the following testing using a number of browsers (google chrome and safari) and devices (HP Pavillion 15.6 inch and iPhone 12).
 
 I also went through the using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+The game play was broken due to after first sequence wrong the follows did not display as apropriated. Few changes was made on the code to fix that as game play only start user click botton, a comparison between sequence and user input to unsure validation and lost sequence won't affect following sequences. 
 
 - - -
 
