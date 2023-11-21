@@ -1,8 +1,8 @@
 # Simon-Game
  
-Welcome to the world of "VibeSync," where classic meets contemporary in the realm of web-based gaming. Join us on a journey that reimagines the beloved Simon game with a fresh and vibrant twist.
+Welcome to the world of "new vibe" where classic meets contemporary in the realm of web-based gaming. Join us on a journey that reimagines the beloved Simon game with a fresh and vibrant twist.
 
-In "VibeSync," we've taken the timeless challenge of Simon and infused it with cutting-edge web technology and interactive features. This isn't your grandparent's Simon game – it's a whole new vibe!
+In "new vibe" we've taken the timeless challenge of Simon and infused it with cutting-edge web technology and interactive features. This isn't your grandparent's Simon game – it's a whole new vibe!
 
 Get ready to put your memory and reflexes to the test as you sync with the colorful patterns and catchy tunes. But "VibeSync" isn't just about following the rhythm; it's about creating your own, too. With our modernized gameplay, you'll be able to share your progress, challenge friends, and experience the game's social side.
 
