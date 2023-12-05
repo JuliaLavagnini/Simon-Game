@@ -268,13 +268,13 @@ Lighthouse testing :
 **First Time Visitors**
 |**User Story**|**Outcome**|**Screengrabs**|
 |-----|-----|-----|
-|I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
-|design present bright and clear colours with large enough layout|![Game on Desktop screen](assets/documentation-media/Desktop-version.png)|
-|I hope to receive a clear and concise explanation of how to play "New vibe game" so I can drive right into the action without any confusion.|Introduction message is present once the window open and instruction message is avaible by a icon button anytime during before, during and after the gameplay.|![Intructions screen](assets/documentation-media/Intructions.png)|
+|I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.|design present bright and clear colours with large enough layout|![Game on Desktop screen](assets/documentation-media/Desktop-version.png)|
+|I hope to receive a clear and concise explanation of how to play "New vibe game" so I can drive right into the action without any confusion.|Introduction message is present once the window open and instruction message is avaible by a icon button anytime during before, during and after the gameplay.|![Intructions screen](assets/documentation-media/Instruction.png)|
 |I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.|The gameplay does not present any error with the gameplay.|![Game Play](assets/documentation-media/Playing.gif)|
 
 **Returning Visitors**
 |**User Story**|**Outcome**|**Screengrabs**|
+|-----|-----|-----|
 |It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.|responsive screen is present from desktop to tablets and mobiles.|![Game on mobile screen](assets/documentation-media/mobile-version.png)|
 
 ### Solved Bugs
