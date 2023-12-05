@@ -232,14 +232,31 @@ To clone the TRIP.-travel-agency-website repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+## Manual Testing
 
-The following issues were raised during my mid project meeting with my mentor:
+**Device and Browser Testing**
 
-* The first version of the website support a carrosel section but was not working properly. This lastest version get rid of carrosel section.
-* All images was not responsive to small screen devices. The images now is fully reponsive and present a grid for a better follow on the website.
-* The navagation bar was not showing up on small devices. It now present a collapse content and center.
-* The date field on booking section was not appearing. It required a change on the date field class and data-target.
+|**Testing**|**iPhone 12 safari**|**iPad Air 10.2" safari**|**HP Pavillion OS Edge**|**HP Pavillion OS Chrome**|**Chrome Developer Tools**|
+|-----|-----|-----|-----|-----|-----|
+|Responsive|Yes|Yes|Yes|Yes|Yes|
+|Intro message is showed when the window is started every time|Yes|Yes|Yes|Yes|Yes|
+|Help button is clickable|Yes|Yes|Yes|Yes|Yes|
+|Mouse click is playable on the game|Yes|Yes|Yes|Yes|Yes|
+|The colours are high visible to instructe the user where to click|Yes|Yes|Yes|Yes|Yes|
+|The numbers is updated to show the user progression|Yes|Yes|Yes|Yes|Yes|
+
+**Manual Testing of User Actions**
+
+|**Feature**     |**Action**     |**Expected Behaviour**     |**Result**     |
+|----------------|---------------|---------------------------|---------------|
+|Intro message|click to close|close the message|Pass|
+|help button|click to open/close|open/close the instructions message|Pass|
+|Start button|click to start|start the game and hide button|Pass|
+|number updated|click colour|guessed correct color and next level|Pass|
+|record registreted|click wrong colour|play stop and message "you stropped at level: .. " appear|Pass|
+|count reset|click start|reset game|Pass|
+|colour blink|click colour after indication|correct guess, next level|Pass|
+|wrong guess|click wrong indication|gameplay stop and count goes to '0' and red|Pass|
 
 ## JavaScript Validator
 The Jest tests present on this project was hard to implement has structure did not follow each other between the files. Only one test was implemented to test if the sequence was being displayed correctly and this test pass. So the decision to implement manual tests was giving to be able to still test for functionality. 
@@ -248,41 +265,37 @@ This framework washard to follow and understand the test driven development, as 
 ![Jest Test Part 1](assets/documentation-media/Jest-test-p1.png)
 ![Jest Test Part 2](assets/documentation-media/Jest-test-p2.png)
 
-### W3C Validator
+## Compliant Code
 
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+**W3C Validator**
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. and it all passed.
 
 * [HTML Validator](assets/documentation-media/Html-w3-validator.png)
 * [CSS Validator](assets/documentation-media/Css-w3-validator.png)
 
-### Solved Bugs
-
-1. ColourPart loop was put into a function to only initiate when the user click on 'Start' button. This way will prevent 'undefine' code and disable clickable colours to only active once start.
-
-2. The feedback 'You stopped at level: ... ' code is fixed on JavaScript file due to misspelled error.
-
-
 ### Testing User Stories
 
-* First Time Visitors
+**First Time Visitors**
+|**User Story**|**Outcome**|**Screengrabs**|
+|-----|-----|-----|
+|I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
+|design present bright and clear colours with large enough layout|![Game on Desktop screen](assets/documentation-media/Desktop-version.png)|
+|I hope to receive a clear and concise explanation of how to play "New vibe game" so I can drive right into the action without any confusion.|Introduction message is present once the window open and instruction message is avaible by a icon button anytime during before, during and after the gameplay.|![Intructions screen](assets/documentation-media/Intructions.png)|
+|I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.|The gameplay does not present any error with the gameplay.|![Game Play](assets/documentation-media/Playing.gif)|
 
-  * I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
+**Returning Visitors**
+|**User Story**|**Outcome**|**Screengrabs**|
+|It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.|responsive screen is present from desktop to tablets and mobiles.|![Game on mobile screen](assets/documentation-media/mobile-version.png)|
 
-  ![Game on Desktop screen](assets/documentation-media/Desktop-version.png)
+### Solved Bugs
 
-  * I hope to receive a clear and concise explanation of how to play "VibeSync" so I can dive right into the action without any confusion.
-
-  ![Intructions screen](assets/documentation-media/Intructions.png)
-
-  * I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.
-  ![Game Play](assets/documentation-media/Playing.gif)
-
-* Returning Visitors
-
-  * It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.
-
-  ![Game](assets/documentation-media/Desktop-version.png)
-  ![Game Play](assets/documentation-media/Playing.gif)
+|**Bug**|**Resolution**|
+|-----|-----|
+|'undefine' code due to clickable colours active with no start button selected| Put ColourPart loop into a function to only initiate when the user click on 'Start' button and disable clickables colours.
+|record registrated message not appearing once game is stopped| Misspelled error fixed on javascript file.|
+|sequence breaking and not reseting properly| Fix pathwayPlay function to reset to zero every time is starting again and adding a reset function and add it to start button to not conflict with the pathwayPlay function.|
+|sequence not accepting user input after first round| lose function was added and validation to only load the game events once the game was started was implemented. Also, on pathwayPlay the variable 'index' was added to set to zero to not conflite with previous rounds. |
 
 ### Lighthouse
 
@@ -292,34 +305,36 @@ Lighthouse testing :
 [Lighthouse Testing for Desktop Index Page](assets/documentation-media/Desktop-analises.png)
 [Lighthouse Testing for Mobile Index Page](assets/documentation-media/Mobile-analises.png)
 
-
-### Full Testing
-
-To fully test my website I performed the following testing using a number of browsers (google chrome and safari) and devices (HP Pavillion 15.6 inch and iPhone 12).
-
-I also went through the using google chrome developer tools to ensure that they responsive on all different screen sizes.
-
-The game play was broken due to after first sequence wrong the follows did not display as apropriated. Few changes was made on the code to fix that as game play only start user click botton, a comparison between sequence and user input to unsure validation and lost sequence won't affect following sequences. 
-
 - - -
 
 ## Credits
 
-### Code Used
-* [Coding Artist - Automatic Pop-Up Javascript](https://codingartistweb.com/2021/08/show-popup-automatically-after-page-load-using-javascript/)
+**Code Used**
 
-### Content
+- boostrap pop up code was not working so I searched online and found automatic pop-up screen code to show automated and allow user interaction with it. Changes were added to follow the appropriate purpose. [Coding Artist - Automatic Pop-Up Javascript](https://codingartistweb.com/2021/08/show-popup-automatically-after-page-load-using-javascript/)
 
-Content for the game was written by the owner Julia Lavagnini.
+- The below codes was provided by my friend that was helping solve the gameplay problem:
+async function delay(time) {
+  return await new Promise((resolve) => {
+    setTimeout(resolve, time);
+  });
+}
 
-### Media
+const getRandomValue = (obj) => {
+  let arr = Object.keys(obj);
+  return arr[Math.floor(Math.random() * arr.length)];
+};
 
-* All media used from self creation.
+**Content**
 
-#### Other Images
+- Content for the game was written by the owner Julia Lavagnini.
 
-* icon from service section was part of Font Anwesome website.
-[Font Anwesome - help-info](https://fontawesome.com/icons/circle-info?f=classic&s=solid)
-[Font Anwesome - heart](https://fontawesome.com/icons/heart?f=classic&s=solid)
-[Font Anwesome - github](https://fontawesome.com/icons/github?f=brands&s=solid)
+**Media**
+
+- All media used from self creation.
+
+icon from service section was part of Font Anwesome website.
+- [Font Anwesome - help-info](https://fontawesome.com/icons/circle-info?f=classic&s=solid)
+- [Font Anwesome - heart](https://fontawesome.com/icons/heart?f=classic&s=solid)
+- [Font Anwesome - github](https://fontawesome.com/icons/github?f=brands&s=solid)
 
