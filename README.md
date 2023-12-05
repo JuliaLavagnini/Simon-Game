@@ -21,6 +21,7 @@ So, whether you're a die-hard Simon fan or a newcomer to the world of memory gam
 
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
+  * [Key Information for the website](#Key-Information-for-the-website)
   * [User Stories](#User-Stories)
 
 * [Design](#Design)
@@ -42,35 +43,33 @@ So, whether you're a die-hard Simon fan or a newcomer to the world of memory gam
     * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
-  * [W3C Validator](#W3C-Validator)
-  * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
+  * [Manual Testing](#Manual-Testing)
+    * [Device and Browser Testing](#Device-and-Browser-Testing)
+    * [Manual Testing of User Actions](#Manual-Testing-of-User-Actions)
+  * [JavaScript Test](#JavaScript-Test)
+  * [Compliant Code](#Compliant-Code)
+    * [W3C Validator](#W3C-Validator)
+    * [Lighthouse](#Lighthouse)
   * [Testing User Stories](#Testing-User-Stories)
-  * [Lighthouse](#Lighthouse)
-    * [Index Page](#Index-Page)
-    * [Books Page](#Books-Page)
-    * [Contact Us Page](#Contact-Us-Page)
-    * [Thank You Page](#Thank-You-Page)
-  * [Full Testing](#Full-Testing)
+  * [Solved Bugs](#Solved-Bugs)
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
   * [Content](#Content)
   * [Media](#Media)
-  * [Acknowledgments](#Acknowledgments)
 
 - - -
 
 ## User Experience (UX)
 
-### Initial Discussion
+**Initial Discussion**
 
-New Vibe Game is a forward-thinking game agency renowned for their innovative approach to web-based gaming. They are dedicated to crafting experiences that not only captivate audiences but also set new standards in interactive entertainment. Their commitment to pushing boundaries aligns perfectly with our vision for "VibeSync."
+New Vibe Game is a forward-thinking game agency renowned for their innovative approach to web-based gaming. They are dedicated to crafting experiences that not only captivate audiences but also set new standards in interactive entertainment. Their commitment to pushing boundaries aligns perfectly with our vision for "New Vibe game"
 
 They look for the right balance betweeb nostalgia and innovation. Bringing back from the past a redesigned with fresh and modern elements of 'Simon Game'. 
 
 
-#### Key information for the site
+**Key information for the site**
 
 * Modernized Interface: A sleek, user-friendly web interface designed for seamless gameplay across various devices.
 
@@ -80,9 +79,9 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 * Clear Guide: Simple and clear guide for instructions.
 
-### User Stories
+**User Stories**
 
-#### Client Goals
+- Client Goals
 
 * Quality Assurance and Bug-Free Gameplay: Conduct thorough testing to identify and rectify any bugs or issues, guaranteeing a polished and reliable gaming experience.
 
@@ -94,7 +93,7 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 * Nostalgia with a Modern Twist: Retain the essence of the classic Simon game while infusing it with contemporary elements to appeal to a broad audience.
 
-#### First Time Visitor Goals
+- First Time Visitor Goals
 
 * I want to be captivated by the landing page, instantly drawn in by the visuals and intrigued by the concept of the game.
 
@@ -104,60 +103,52 @@ They look for the right balance betweeb nostalgia and innovation. Bringing back 
 
 * I hope to enjoy uninterrupted gameplay, without any technical glitches or performance issues that might disrupt my experience.
 
-#### Returning Visitor Goals
+- Returning Visitor Goals
 
 * It's important to me that the gameplay experience feels familiar but with noticeable improvements in responsiveness, graphics, or user interface.
-
-*  I look forward to reviewing my progress and achievements, gaining a sense of accomplishment and motivation to continue playing.
 
 - - -
 
 ## Design
 
-### Colour Scheme
+**Colour Scheme**
 
-![VibeSync, game colour palette](<assets/documentation-media/Game-colours.png>)
-![VibeSync, game colour palette](<assets/documentation-media/Game-colours-active.png>)
+![New Vibe game colour palette](<assets/documentation-media/Game-colours.png>)
+![New Vibe game colour palette](<assets/documentation-media/Game-colours-active.png>)
 
 The game uses a palette of pastel colours and same colour but in the bright tone to assembly a different mordern design. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
-### Typography
+**Typography**
 
 Google Fonts was used for the following font with different font weight:
 
 * Work Sans is used on the whole website. It is a sans-serif font.
 
-### Imagery
+**Imagery**
 
 All media was created by myself.
 
-### Wireframes
+**Wireframes**
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Main Wireframe](assets/documentation-media/Main-wireframe.png)
+![Main Wireframe](assets/documentation-media/Main-wireframe.png)
 
-[Popups Wireframe](assets/documentation-media/Popups-wireframes.png)
+![Popups Wireframe](assets/documentation-media/Popups-wireframes.png)
 
-### Features
+**Features**
 
 * The game is composed of a single page with responsive design accessible in all range of devices.
-
 * Start button is hidden once the user start to play and back to visible once stopped.
-
 * A intro popup screen presenting the game load everytime the window start.
-
 * The game is not limited to a number of plays.
-
 * The help button shows popup explaining how to play.
-
 * A content phrase appear once the game is over showing where the user stop.
-
 * Future Implementations.
   * Implement a ranking list to store and display higher scores.
   * Add a sharing button to allow users share their restuls.
 
-### Accessibility
+**Accessibility**
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
@@ -170,29 +161,19 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ## Technologies Used
 
-### Languages Used
+**Languages Used**
 
-HTML CSS, Java Script were used to create this game.
+HTML, CSS and Java Script were used to create this game.
 
-### Frameworks, Libraries & Programs Used
+**Frameworks, Libraries & Programs Used**
 
-Figma - Used to create wireframes.
-
-Git - For version control.
-
-Github - To save and store the files for the website.
-
-Bootstrap Version 5.3 - The framework for the website. Code for the navigation bar, modal, and form were used and modified. Additional CSS styling was also implemented in style.css.
-
-Google Fonts - To import the fonts used on the website.
-
-Font Awesome - For the iconography on the website.
-
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-[Shields.io](https://shields.io/) To add badges to the README
+- Figma - Used to create wireframes.
+- Git - For version control.
+- Github - To save and store the files for the website.
+- Bootstrap Version 5.3 - The framework for the website. Code for the navigation bar, modal, and form were used and modified. Additional CSS styling was also implemented in style.css.
+- Google Fonts - To import the fonts used on the website.
+- Font Awesome - For the iconography on the website.
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 - - -
 
@@ -212,7 +193,7 @@ Netfily was used to deploy the live website. The instructions to achieve this ar
 
 #### How to Fork
 
-To fork the Bully-Book-Club repository:
+To fork the Simon game repository:
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, JuliaLavagnini/Simon-Game.
@@ -232,9 +213,9 @@ To clone the TRIP.-travel-agency-website repository:
 
 ## Testing
 
-## Manual Testing
+### Manual Testing
 
-**Device and Browser Testing**
+#### Device and Browser Testing
 
 |**Testing**|**iPhone 12 safari**|**iPad Air 10.2" safari**|**HP Pavillion OS Edge**|**HP Pavillion OS Chrome**|**Chrome Developer Tools**|
 |-----|-----|-----|-----|-----|-----|
@@ -245,7 +226,7 @@ To clone the TRIP.-travel-agency-website repository:
 |The colours are high visible to instructe the user where to click|Yes|Yes|Yes|Yes|Yes|
 |The numbers is updated to show the user progression|Yes|Yes|Yes|Yes|Yes|
 
-**Manual Testing of User Actions**
+#### Manual Testing of User Actions
 
 |**Feature**     |**Action**     |**Expected Behaviour**     |**Result**     |
 |----------------|---------------|---------------------------|---------------|
@@ -258,21 +239,29 @@ To clone the TRIP.-travel-agency-website repository:
 |colour blink|click colour after indication|correct guess, next level|Pass|
 |wrong guess|click wrong indication|gameplay stop and count goes to '0' and red|Pass|
 
-## JavaScript Validator
+### JavaScript Test
 The Jest tests present on this project was hard to implement has structure did not follow each other between the files. Only one test was implemented to test if the sequence was being displayed correctly and this test pass. So the decision to implement manual tests was giving to be able to still test for functionality. 
 This framework washard to follow and understand the test driven development, as a final statement Jest will be implemented in others projects but before more pratice is required to use it in a time sentive project. 
 
 ![Jest Test Part 1](assets/documentation-media/Jest-test-p1.png)
 ![Jest Test Part 2](assets/documentation-media/Jest-test-p2.png)
 
-## Compliant Code
+### Compliant Code
 
-**W3C Validator**
+#### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. and it all passed.
 
 * [HTML Validator](assets/documentation-media/Html-w3-validator.png)
 * [CSS Validator](assets/documentation-media/Css-w3-validator.png)
+
+#### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+Lighthouse testing :
+[Lighthouse Testing for Desktop Index Page](assets/documentation-media/Desktop-analises.png)
+[Lighthouse Testing for Mobile Index Page](assets/documentation-media/Mobile-analises.png)
 
 ### Testing User Stories
 
@@ -297,13 +286,6 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 |sequence breaking and not reseting properly| Fix pathwayPlay function to reset to zero every time is starting again and adding a reset function and add it to start button to not conflict with the pathwayPlay function.|
 |sequence not accepting user input after first round| lose function was added and validation to only load the game events once the game was started was implemented. Also, on pathwayPlay the variable 'index' was added to set to zero to not conflite with previous rounds. |
 
-### Lighthouse
-
-I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
-
-Lighthouse testing :
-[Lighthouse Testing for Desktop Index Page](assets/documentation-media/Desktop-analises.png)
-[Lighthouse Testing for Mobile Index Page](assets/documentation-media/Mobile-analises.png)
 
 - - -
 
@@ -332,6 +314,8 @@ const getRandomValue = (obj) => {
 **Media**
 
 - All media used from self creation.
+- [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+- [Shields.io](https://shields.io/) To add badges to the README
 
 icon from service section was part of Font Anwesome website.
 - [Font Anwesome - help-info](https://fontawesome.com/icons/circle-info?f=classic&s=solid)
