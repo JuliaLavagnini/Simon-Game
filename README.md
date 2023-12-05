@@ -296,6 +296,7 @@ Lighthouse testing :
 - boostrap pop up code was not working so I searched online and found automatic pop-up screen code to show automated and allow user interaction with it. Changes were added to follow the appropriate purpose. [Coding Artist - Automatic Pop-Up Javascript](https://codingartistweb.com/2021/08/show-popup-automatically-after-page-load-using-javascript/)
 
 - The below codes was provided by my friend that was helping solve the gameplay problem:
+
 async function delay(time) {
   return await new Promise((resolve) => {
     setTimeout(resolve, time);
