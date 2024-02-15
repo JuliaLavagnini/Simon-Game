@@ -39,7 +39,7 @@ h2 {
   );
   box-shadow: 8px 0px 25px rgba(0, 0, 0, 0.15);
   color: #121212;
-  width: 394px;
+  min-width: 550px;
   padding: 30px 40px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -48,6 +48,7 @@ h2 {
   border-radius: 8px;
   display: none;
   z-index: 1;
+  text-align: center;
 }
 
 .popup span {
@@ -67,6 +68,20 @@ h2 {
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.popup input{
+  width: 300px;
+  margin-top: 6px;
+  align-items: center;
+}
+
+.popup .submitBtn{
+  background-color: #7bf1a8;
+  font-size: 16px;
+  margin-top: 3px;
+  color: #000;
+  display: inline;
 }
 
 /* popupHelp style */
